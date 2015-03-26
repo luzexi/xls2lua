@@ -11,6 +11,12 @@ If you use lua language , the data write in lua is the best thing for you to cod
 So this script will help you convert xls to lua , so you can do your job more easily.<br />
 (如果你在使用Lua语言，将数据写进Lua文件是最方便的做法。这个脚本将帮助你将数据xls文件转化为lua文件，这样你就可以更好的工作了。)<br />
 
+### Declare (宣告)
+This script is inherit from https://github.com/zfengzhen/xls2lua .<br />
+I improve it to fit my data rule like add array type in script and remove the different talbe name in xls and so on.<br />
+Any way , you can choose one that more fit your project.<br />
+(这个脚本是从https://github.com/zfengzhen/xls2lua继承过来的，我改进了很多东西，也去除了很多东西，我改成了适合我自己的脚本。不管怎样，你可以选择一个适合你的脚本去运行。)
+
 ### example（例子xls表格）
 example_building.xls  
 <table>
