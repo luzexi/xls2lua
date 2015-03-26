@@ -121,18 +121,18 @@ example_building.xls
 ./xls2lua.py example_building.xls ./data/
 
 ### NOTICE:(注意点)
-> The sheet name must start with "output_" , the lua file name will be the name behind "output_".
-> (sheet名以"output_"开头的才会被识别转换，否则将被忽略)
-> The **first row** must be **title**.  
-> (第1行必须是关键字名)
-> The **second row** must be **type**
-> (第2行必须为类型)
-> The **type must be i , f , s , b , ai , af , as , ab.
-> (类型有：i,f,s,b,ai,af,as,ab这几种)
-> i mean int , f mean float , s mean string , b mean bool , ai mean array int , af mean array float , as mean array string , ab mean array bool.
-> (i表示int，f表示float,s表示string,b表示bool,ai表示int数组,af表示float数组,as表示string数组,ab表示bool数组)
-> The **first column** must be int , so the type in first column must be i.
-> (第1列必须为int类型的唯一关键字)
+> The sheet name must start with "output_" , the lua file name will be the name behind "output_". <br />
+> (sheet名以"output_"开头的才会被识别转换，否则将被忽略) <br />
+> The **first row** must be **title**.  <br />
+> (第1行必须是关键字名) <br />
+> The **second row** must be **type** <br />
+> (第2行必须为类型) <br />
+> The **type must be i , f , s , b , ai , af , as , ab. <br />
+> (类型有：i,f,s,b,ai,af,as,ab这几种) <br />
+> i mean int , f mean float , s mean string , b mean bool , ai mean array int , af mean array float , as mean array string , ab mean array bool. <br />
+> (i表示int，f表示float,s表示string,b表示bool,ai表示int数组,af表示float数组,as表示string数组,ab表示bool数组) <br />
+> The **first column** must be int , so the type in first column must be i. <br />
+> (第1列必须为int类型的唯一关键字) <br />
 
 ### LUA SCRIPT (生成后的Lua文件示例)
 ```lua
