@@ -114,8 +114,10 @@ def make_table(filename):
 
 def format_str(v):
 	s = ("%s"%(v)).encode("utf-8")
-	if s[-1] == "]":
-		s = "%s "%(s)
+	s = s.replace('\"','\\\"')
+	s = s.replace('\'','\\\'')
+	# if s[-1] == "]":
+	# 	s = "%s "%(s)
 	return s
 
 def get_i(v):
