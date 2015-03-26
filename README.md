@@ -4,10 +4,10 @@ Convert xls to lua script for game res
 use [python xlrd](https://pypi.python.org/pypi/xlrd)
 
 # What (是什么)
-This is a script to convert xls to lua.</ br>
-If you use lua language , the data write in lua is the best thing for you to code.</ br>
-So this script will help you convert xls to lua , so you can do your job more easily.</ br>
-(如果你在使用Lua语言，将数据写进Lua文件是最方便的做法。这个脚本将帮助你将数据xls文件转化为lua文件，这样你就可以更好的工作了。)</ br>
+This is a script to convert xls to lua.<br />
+If you use lua language , the data write in lua is the best thing for you to code.<br />
+So this script will help you convert xls to lua , so you can do your job more easily.<br />
+(如果你在使用Lua语言，将数据写进Lua文件是最方便的做法。这个脚本将帮助你将数据xls文件转化为lua文件，这样你就可以更好的工作了。)<br />
 
 ### example（例子xls表格）
 example_building.xls  
