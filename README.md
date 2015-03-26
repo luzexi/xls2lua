@@ -2,6 +2,7 @@
 Convert xls to lua script for game resource<br />
 (将xls数据文件转化为lua脚本，作为游戏资源使用)<br />
 use [python xlrd](https://pypi.python.org/pypi/xlrd)<br />
+(使用python xlrd模块)<br />
 Blog: http://www.luzexi.com
 
 # What (是什么)
