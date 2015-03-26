@@ -128,6 +128,7 @@ example_building.xls
 > i mean int , f mean float , s mean string , b mean bool , ai mean array int , af mean array float , as mean array string , ab mean array bool. <br />
 > The **first column** must be int , so the type in first column must be i. <br />
 > The string type with char **"** or **'** will be replace by \" or \' <br />
+> The empty col will be a default value like 0 or "" or false or {} <br />
 > (sheet名以"output_"开头的才会被识别转换，否则将被忽略) <br />
 > (第1行必须是关键字名) <br />
 > (第2行必须为类型) <br />
@@ -135,6 +136,7 @@ example_building.xls
 > (i表示int，f表示float,s表示string,b表示bool,ai表示int数组,af表示float数组,as表示string数组,ab表示bool数组) <br />
 > (第1列必须为int类型的唯一关键字) <br />
 > (string类型中"和'会自动用\"和\'替代)
+> (空列将会被默认值代替，例如:0,"",false,{})
 
 ### LUA SCRIPT (生成后的Lua文件示例)
 ```lua
