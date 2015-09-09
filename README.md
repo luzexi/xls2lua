@@ -51,10 +51,10 @@ example_building.xls
         <td>2.33</td>
         <td>TRUE</td>
         <td>100</td>
-        <td>1,2,3</td>
-        <td>1.23,2,3.23</td>
-        <td>sdf,23e,s</td>
-        <td>true,false,true</td>
+        <td>1;2;3</td>
+        <td>1.23;2;3.23</td>
+        <td>sdf;23e;s</td>
+        <td>true;false;true</td>
     </tr>
     <tr>
         <td>2</td>
@@ -63,10 +63,10 @@ example_building.xls
         <td>336.2</td>
         <td>TRUE</td>
         <td></td>
-        <td>1,2,3</td>
-        <td>1,2.3445,3</td>
-        <td>你好,你在哪</td>
-        <td>true,false</td>
+        <td>1;2;3</td>
+        <td>1;2.3445;3</td>
+        <td>你好;你在哪</td>
+        <td>true;false</td>
     </tr>
     <tr>
         <td>3</td>
@@ -75,10 +75,10 @@ example_building.xls
         <td>222.33665</td>
         <td>FALSE</td>
         <td>130</td>
-        <td>3,2,5,,</td>
-        <td>3,2,2.5,,</td>
-        <td>我在这里啊,你在那,呢</td>
-        <td>false,true</td>
+        <td>3;2;5;;</td>
+        <td>3;2;2.5;;</td>
+        <td>我在这里啊;你在那;呢</td>
+        <td>false;true</td>
     </tr>
     <tr>
         <td>4</td>
@@ -87,9 +87,9 @@ example_building.xls
         <td>220</td>
         <td>FALSE</td>
         <td>200</td>
-        <td>2,3,</td>
-        <td>200.3,3,234.23,</td>
-        <td>df,ssd,dd,dd</td>
+        <td>2;3;</td>
+        <td>200.3;3;234.23;</td>
+        <td>df;ssd;dd;dd</td>
         <td></td>
     </tr>
     <tr>
@@ -98,10 +98,10 @@ example_building.xls
         <td></td>
         <td>22.1</td>
         <td></td>
-        <td>234 3,6,6,,,7</td>
-        <td>3,6.3,6,,,7</td>
-        <td>ss,d,d,d</td>
-        <td>true,true</td>
+        <td>2343;6;6;;;7</td>
+        <td>3;6.3;6;;;7</td>
+        <td>ss;d;d;d</td>
+        <td>true;true</td>
     </tr>
     <tr>
         <td>6</td>
@@ -112,8 +112,8 @@ example_building.xls
         <td>333</td>
         <td></td>
         <td></td>
-        <td>2e,w,e,we</td>
-        <td>false,false,false,false</td>
+        <td>2e;w;e;we</td>
+        <td>false;false;false;false</td>
     </tr>
 </table>
 
