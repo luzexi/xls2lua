@@ -118,7 +118,7 @@ example_building.xls
 </table>
 
 ### Excute Example (举例执行命令)
-./xls2lua.py example_building.xls ./data/
+python ./xls2lua.py example_building.xls ./data/
 
 ### NOTICE:(注意点)
 > The sheet name must start with "output_" , the lua file name will be the name behind "output_". <br />

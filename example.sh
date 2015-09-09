@@ -1,1 +1,1 @@
-./xls2lua.py example_building.xls ./ 
+python ./xls2lua.py example_building.xls ./ 
