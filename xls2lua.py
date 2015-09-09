@@ -90,7 +90,7 @@ def make_table(filename):
 					v = int(value)
 				elif type_dict[col_idx].lower() == "f" and vtype == 2:
 					v = float(value)
-				elif type_dict[col_idx].lower() == "s" and vtype == 1:
+				elif type_dict[col_idx].lower() == "s":
 					v = format_str(value)
 				elif type_dict[col_idx].lower() == "b" and vtype == 4:
 					if value == 1:
@@ -101,7 +101,7 @@ def make_table(filename):
 					v = str(value)
 				elif type_dict[col_idx].lower() == "af" and vtype == 1:
 					v = str(value)
-				elif type_dict[col_idx].lower() == "as" and vtype == 1:
+				elif type_dict[col_idx].lower() == "as":
 					v = format_str(value)
 				elif type_dict[col_idx].lower() == "ab" and vtype == 1:
 					v = str(value)
@@ -113,7 +113,14 @@ def make_table(filename):
 	return excel, 0 , "ok"
 
 def format_str(v):
-	s = ("%s"%(v)).encode("utf-8")
+	# print(""+v)
+	# s = (""+v).encode("utf-8")
+	# print(s)
+	# s = "" + v
+	# bytes(num)
+	if type(v) == int or type(v) == float :
+		v =  bytes(v)
+	s = ("%s"%(""+v)).encode("utf-8")
 	s = s.replace('\"','\\\"')
 	s = s.replace('\'','\\\'')
 	# if s[-1] == "]":
@@ -143,7 +150,7 @@ def get_b(v):
 def get_ai( v ):
 	if v is None:
 		return "{}"
-	tmp_vec_str = v.split(',')
+	tmp_vec_str = v.split(';')
 	res_str = "{"
 	i = 0
 	for val in tmp_vec_str:
@@ -158,7 +165,7 @@ def get_ai( v ):
 def get_af( v ):
 	if v is None:
 		return "{}"
-	tmp_vec_str = v.split(',')
+	tmp_vec_str = v.split(';')
 	res_str = "{"
 	i = 0
 	for val in tmp_vec_str:
@@ -173,7 +180,7 @@ def get_af( v ):
 def get_as( v ):
 	if v is None:
 		return "{}"
-	tmp_vec_str = v.split(',')
+	tmp_vec_str = v.split(';')
 	res_str = "{"
 	i = 0
 	for val in tmp_vec_str:
@@ -188,7 +195,7 @@ def get_as( v ):
 def get_ab( v ):
 	if v is None:
 		return "{}"
-	tmp_vec_str = v.split(',')
+	tmp_vec_str = v.split(';')
 	res_str = "{"
 	i = 0
 	for val in tmp_vec_str:
