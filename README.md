@@ -1,24 +1,38 @@
-# xls2lua
-Convert xls to lua script for game resource<br />
-(将xls数据文件转化为lua脚本，作为游戏资源使用)<br />
-use [python xlrd](https://pypi.python.org/pypi/xlrd)<br />
-(使用python xlrd模块)<br />
+xls2lua
+---------------------------
+Convert xls to lua script for game resource
+
+(将xls数据文件转化为lua脚本，作为游戏资源使用)
+
+use [python xlrd](https://pypi.python.org/pypi/xlrd)
+
+(使用python xlrd模块)
+
 Blog: http://www.luzexi.com
 
-# What (是什么)
-This is a script to convert xls to lua.<br />
-If you use lua language , the data write in lua is the best thing for you to code.<br />
-So this script will help you convert xls to lua , so you can do your job more easily.<br />
-(如果你在使用Lua语言，将数据写进Lua文件是最方便的做法。这个脚本将帮助你将数据xls文件转化为lua文件，这样你就可以更好的工作了。)<br />
+Email: jesse_luzexi@163.com
 
-### Declare (宣告)
-This script is inherit from https://github.com/zfengzhen/xls2lua .<br />
-I improve it to fit my data rule like add array type in script and remove the different talbe name in xls and so on.<br />
-Any way , you can choose one that more fit your project.<br />
+# What (是什么)
+This is a script to convert xls to lua.
+
+If you use lua language , the data write in lua is the best thing for you to code.
+
+So this script will help you convert xls to lua , so you can do your job more easily.
+
+(如果你在使用Lua语言，将数据写进Lua文件是最方便的做法。这个脚本将帮助你将数据xls文件转化为lua文件，这样你就可以更好的工作了。)
+
+### Declare (声明)
+This script is inherit from https://github.com/zfengzhen/xls2lua .
+
+I improve it to fit my data rule like add array type in script and remove the different talbe name in xls and so on.
+
+Any way , you can choose one that more fit your project.
+
 (这个脚本是从 https://github.com/zfengzhen/xls2lua 继承过来的，我改进了很多东西，也去除了很多东西，我改成了适合我自己的脚本。不管怎样，你可以选择一个适合你的脚本去运行。)
 
 ### example（例子xls表格）
 example_building.xls  
+
 <table>
     <tr>
         <td>id</td>
